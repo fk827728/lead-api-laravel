@@ -74,7 +74,7 @@ Once you have cloned the Git repository, navigate to the directory and perform t
 1. `composer install`
 2. `php artisan sail:install` - Choose the option to install mysql
 3. `sudo ./vendor/bin/sail up -d`
-4. `./vendor/bin/sail shell`
+4. `sudo ./vendor/bin/sail shell`
 5. `php artisan serve --host 0.0.0.0 --port 8000`
 
 You can now run any commands in your environment using `./vendor/bin/sail` in place of `php artisan`. An example can be found [here](https://laravel.com/docs/10.x/sail#executing-sail-commands).
